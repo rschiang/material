@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RefreshButton.qml</file>
+        <file>ExampleDialog.qml</file>
+        <file>material/qmldir</file>
+        <file>material/UIConstants.qml</file>
+        <file>material/PaperShadow.qml</file>
+        <file>material/PaperRipple.qml</file>
+        <file>material/RaisedButton.qml</file>
+        <file>material/FlatButton.qml</file>
+        <file>material/IconButton.qml</file>
+        <file>material/FloatingActionButton.qml</file>
+        <file>material/TextField.qml</file>
+        <file>material/ActionBar.qml</file>
+        <file>material/Card.qml</file>
+        <file>material/Popup.qml</file>
+        <file>material/Dialog.qml</file>
+        <file>material/Label.qml</file>
+    </qresource>
+    <qresource prefix="/assets">
+        <file alias="icon_menu">assets/icon_menu.svg</file>
+        <file alias="icon_add">assets/icon_add.svg</file>
+        <file alias="icon_refresh">assets/icon_refresh.svg</file>
+        <file alias="icon_send">assets/icon_send.svg</file>
+        <file alias="icon_send-colored">assets/icon_send-colored.svg</file>
+        <file alias="icon_camera">assets/icon_camera.svg</file>
+        <file alias="lawyer_cat">assets/lawyer_cat.jpg</file>
+    </qresource>
+</RCC>

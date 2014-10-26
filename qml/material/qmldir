@@ -1,0 +1,2 @@
+module material
+singleton UIConstants UIConstants.qml
