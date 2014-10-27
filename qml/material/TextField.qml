@@ -4,7 +4,7 @@ import "."
 Item {
     id: control
     implicitWidth: input.contentWidth
-    implicitHeight: Math.max(input.contentHeight + 24 * dp, 48 * dp)
+    implicitHeight: Math.max(input.contentHeight + 32 * dp, 48 * dp)
 
     property color focusColor: "#2196f3"
 
