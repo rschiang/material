@@ -9,6 +9,7 @@ Item {
     property variant source
     property int depth: 0
 
+
     DropShadow {
         id: topShadow
         anchors.fill: parent
@@ -17,6 +18,7 @@ Item {
         spread: 0.0
         samples: 32
         transparentBorder: true
+        fast: true
     }
 
     DropShadow {
@@ -27,6 +29,7 @@ Item {
         spread: 0.0
         samples: 32
         transparentBorder: true
+        fast: true
     }
 
     states: [
