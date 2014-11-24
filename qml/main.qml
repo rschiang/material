@@ -1,11 +1,11 @@
-import QtQuick 2.0
-import QtQuick.Window 2.0
+import QtQuick 2.3
+import QtQuick.Controls 1.2
 import "material"
 
-Window {
+ApplicationWindow {
     id: root
-    width: 360
-    height: 720
+    width: isMobile ? 320 : 360
+    height: isMobile ? 480 : 720
     visible: true
     title: "Material"
     color: "white"
