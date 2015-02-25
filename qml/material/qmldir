@@ -1,2 +1,17 @@
 module material
-singleton UIConstants UIConstants.qml
+ActionBar 1.0 ActionBar.qml
+FloatingActionButton 1.0 FloatingActionButton.qml
+MenuItem 1.0 MenuItem.qml
+Popup 1.0 Popup.qml
+Card 1.0 Card.qml
+IconButton 1.0 IconButton.qml
+MenuItemSeparator 1.0 MenuItemSeparator.qml
+RaisedButton 1.0 RaisedButton.qml
+Dialog 1.0 Dialog.qml
+Label 1.0 Label.qml
+PaperRipple 1.0 PaperRipple.qml
+TextField 1.0 TextField.qml
+FlatButton 1.0 FlatButton.qml
+Menu 1.0 Menu.qml
+PaperShadow 1.0 PaperShadow.qml
+singleton UIConstants 1.0 UIConstants.qml
