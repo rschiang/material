@@ -19,6 +19,8 @@ Item {
     
     property alias inputMethodHints: input.inputMethodHints
 
+    signal accepted
+
     Text {
         id: placeholder
         anchors.fill: input
@@ -41,6 +43,8 @@ Item {
         selectedTextColor: color
         font.family: UIConstants.sansFontFamily
         font.pointSize: UIConstants.subheadFontSize
+
+        onAccepted: control.accepted()
     }
 
     Rectangle {
