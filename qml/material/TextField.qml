@@ -16,6 +16,8 @@ Item {
     property alias echoMode: input.echoMode
     property alias color: input.color
     property alias font: input.font
+    
+    property alias inputMethodHints: input.inputMethodHints
 
     Text {
         id: placeholder
