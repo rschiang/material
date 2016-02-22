@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>material/qmldir</file>
+        <file>material/UIConstants.qml</file>
+        <file>material/PaperShadow.qml</file>
+        <file>material/PaperRipple.qml</file>
+        <file>material/RaisedButton.qml</file>
+        <file>material/FlatButton.qml</file>
+        <file>material/IconButton.qml</file>
+        <file>material/FloatingActionButton.qml</file>
+        <file>material/TextField.qml</file>
+        <file>material/ActionBar.qml</file>
+        <file>material/Card.qml</file>
+        <file>material/Popup.qml</file>
+        <file>material/Dialog.qml</file>
+        <file>material/Label.qml</file>
+    </qresource>
+</RCC>
