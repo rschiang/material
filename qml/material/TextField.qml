@@ -12,7 +12,7 @@ Item {
     property alias hint: placeholder.text
     property alias length: input.length
     property alias maxLength: input.maximumLength
-    property alias inputMethodComposing: input.inputMethodComposing
+
     property alias echoMode: input.echoMode
     property alias color: input.color
     property alias font: input.font
