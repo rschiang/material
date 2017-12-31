@@ -31,7 +31,7 @@ Item {
         x: 72 * dp
         anchors.verticalCenter: parent.verticalCenter
         font.family: UIConstants.sansFontFamily
-        font.bold: Font.DemiBold
+        font.weight: Font.DemiBold
         font.pointSize: UIConstants.titleFontSize
         color: "white"
     }

@@ -24,7 +24,7 @@ Item {
         anchors.centerIn: parent
         font.family: UIConstants.sansFontFamily
         font.pointSize: UIConstants.bodyFontSize
-        font.bold: Font.DemiBold
+        font.weight: Font.DemiBold
         font.capitalization: Font.AllUppercase
         color: button.enabled ? UIConstants.bodyTextColor : UIConstants.displayTextColor
         opacity: button.enabled ? 1 : 0.62
