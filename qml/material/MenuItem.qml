@@ -22,7 +22,7 @@ Item {
         }
         font.family: UIConstants.sansFontFamily
         font.pointSize: UIConstants.bodyFontSize
-        font.bold: Font.DemiBold
+        font.weight: Font.DemiBold
         color: item.enabled ? UIConstants.bodyTextColor : UIConstants.displayTextColor
         opacity: item.enabled ? 1 : 0.62
 
